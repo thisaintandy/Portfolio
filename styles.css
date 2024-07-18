@@ -1,0 +1,101 @@
+header{
+    background-color: #06142E;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    padding: 2.5% 0px;
+}
+
+.navigation li a{
+    padding: 5% 10px 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.about-me-padding{
+    padding: 0px 0px 0px 70%;
+}
+body{
+    margin: 0px;
+}
+
+.landing-page{
+    background-color: #06142E;
+    padding: 8% 20% 12% 20%;
+}
+.name{
+    font-size: 100px;
+}
+
+.greetings{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.position{
+    font-size: 40px;
+}
+
+#about-me-page{
+    background-color: #403A60;
+    padding: 2% 20% 10% 20%;
+    margin: 0px;
+}
+
+#about-me, #projects{
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #FF914D;
+}
+
+
+
+#projects-page{
+    background-color: #06142E;
+    padding: 2% 10% 2% 10%;
+}
+
+
+p, h3, li{
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.project-container{
+    display: flex;
+}
+
+.project{
+    width: 70%;
+    padding: 0px 60px 0px 60px;
+    
+}
+
+.project p, li{
+    font-size: 20px;
+}
+
+.project-image{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.project-image:hover{
+    border: solid 5px #FF914D;
+    box-shadow: -5px 14px 15px 5px #000000;
+}
+
+.project-title{
+    text-align: center;
+    margin-bottom: 5%;
+}
