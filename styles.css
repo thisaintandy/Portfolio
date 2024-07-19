@@ -1,5 +1,9 @@
 header{
     background-color: #06142E;
+    position: fixed;
+    z-index: 1000; 
+    width: 100%;
+    height: 10%;
 }
 
 .navigation{
@@ -20,14 +24,76 @@ header{
 .about-me-padding{
     padding: 0px 0px 0px 70%;
 }
+
 body{
     margin: 0px;
 }
 
 .landing-page{
     background-color: #06142E;
-    padding: 8% 20% 12% 20%;
+    padding:15% 20% 0 20%;
+    display: flex;
+    max-width:70%
 }
+
+.landing-page-image {
+    padding: 0px 0px 0px 25%;
+    max-width:10%;
+    height: 500px;
+}
+
+.landing-page-text .name{
+    font-family: "Rubik", sans-serif;
+}
+
+.landing-page-text .position, .greetings{
+    font-family: "Lobster", sans-serif;
+    color: #005AE0;
+}
+
+.landing-page-image .profile-img{
+    z-index: 10;
+    position: relative; 
+}
+
+.landing-page-image .img1 {
+    padding: 0;
+    position: relative; 
+    bottom: 5%; 
+    left: -50%;
+    z-index: 3;
+    max-width:100%;
+}
+
+.landing-page-image .gif1 {
+    padding: 0;
+    position: relative; 
+    top: -110%; 
+    left: 200%;
+    max-width:200%;
+    z-index: 2;
+}
+
+/*
+.landing-page-image .gif2 {
+    padding: 0;
+    position: relative; 
+    bottom: 50%; 
+    left: 300%;
+    max-width:100%;
+    z-index: 5;
+}*/
+
+.landing-page-image .gif3 {
+    padding: 0px 0px 0px 0px;
+    position: relative; 
+    bottom: 135%; 
+    left: -90%;
+    max-width:400%;
+    z-index: 1;
+    margin: 0;
+}
+
 .name{
     font-size: 100px;
 }
@@ -47,7 +113,7 @@ body{
     margin: 0px;
 }
 
-#about-me, #projects{
+#about-me, #projects, #contacts{
     font-size: 30px;
     padding-bottom: 3%;
     text-align: center;
@@ -58,7 +124,7 @@ body{
 
 #projects-page{
     background-color: #06142E;
-    padding: 2% 10% 2% 10%;
+    padding: 2% 10% 5% 10%;
 }
 
 
@@ -66,6 +132,7 @@ p, h3, li{
     color: white;
     margin: 0px;
     font-size: 25px;
+    font-family: "Zain", sans-serif;
 }
 
 .project-container{
@@ -98,4 +165,8 @@ p, h3, li{
 .project-title{
     text-align: center;
     margin-bottom: 5%;
+}
+#contact-me-page{
+    background-color: #403A60;
+    padding: 2% 10% 2% 10%;
 }
