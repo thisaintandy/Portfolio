@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes">
     <title>Andy Masarque</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -20,18 +21,20 @@
         </nav>
     </header>
     <div class="landing-page">
-        <div class="landing-page-text">
-            <p class="greetings">Hi, I am</p>
-            <h3 class="name">Andy Dy</h3>
-            <h3 class="name">Masarque</h3>
-            <p class="position">Front-end Developer</p>
-        </div>
-        <div class="landing-page-image">
-            <img src="assets/profileimage.png" alt="Andy's Picture" class="profile-img">
-            <img src="assets/img1.png" alt="Image of a Computer" class="img1">
-            <img src="assets/gif1.gif" alt="Image of a Computer" class="gif1">
-            <!-- <img src="assets/gif2.gif" alt="Image of a Computer" class="gif2"> -->
-            <img src="assets/gif3.gif" alt="Image of a Computer" class="gif3">
+        <div class="landing-page-container">
+            <div class="landing-page-text">
+                <p class="greetings">Hi, I am</p>
+                <h3 class="name">Andy Dy</h3>
+                <h3 class="name">Masarque</h3>
+                <p class="position">Aspiring Front-end Developer</p>
+            </div>
+            <div class="landing-page-image">
+                <img src="assets/profileimage.png" alt="Andy's Picture" class="profile-img">
+                <img src="assets/img1.png" alt="Image of a Computer" class="img1">
+                <img src="assets/gif1.gif" alt="Image of a Computer" class="gif1">
+                <!-- <img src="assets/gif2.gif" alt="Image of a Computer" class="gif2"> -->
+                <img src="assets/gif3.gif" alt="Image of a Computer" class="gif3">
+            </div>
         </div>
     </div>
 
@@ -54,15 +57,10 @@
         <h3 id="projects" style="font-family: 'Rubik', sans-serif;">My Projects/Design</h3>
         <div class="project-container">
             <div class="project">
-                <img src="assets/project-1.png" alt="Image of the App" class="project-image">
+                <a href="https://github.com/thisaintandy/ChurchDoc" target="_blank"><img src="assets/project-1.png" alt="Image of the App" class="project-image"></a>
                 <p class="project-title">CHURCHDOC</p>
                 <p>Developed a Church Member Management application using Python and MySQL. Users can document request materials and appointments. </p>
                 <p> Implemented user roles and functionalities:</p>
-                <ul>
-                    <li>Member profile access (view and potentially update limited information).</li>
-                    <li>Appointment scheduling with church staff.</li>
-                    <li>Data request system for members to obtain specific information.</li>
-                </ul>
             </div>
 
             <div class="project">
@@ -70,40 +68,54 @@
                 <p class="project-title">PAG-IBIG Registration Form</p>
                 <p>Developed a Pag IBIG Member Registration application using Python and MySQL. </p>
                 <p> Implemented user roles and functionalities:</p>
-                <ul>
-                    <li>Public user registration.</li>
-                    <li>Member profile management (view and edit).</li>
-                    <li>Admin dashboard for comprehensive data access.</li>
-                </ul>
             </div>
 
             <div class="project">
-                <img src="assets/project-2.png" alt="Image of the App" class="project-image">
-                <p class="project-title">PAG-IBIG Registration Form</p>
-                <p>Developed a Pag IBIG Member Registration application using Python and MySQL. </p>
-                <p> Implemented user roles and functionalities:</p>
-                <ul>
-                    <li>Public user registration.</li>
-                    <li>Member profile management (view and edit).</li>
-                    <li>Admin dashboard for comprehensive data access.</li>
-                </ul>
+                <img src="assets/project-3.png" alt="Image of the App" class="project-image">
+                <p class="project-title">PUP LMS View Assessment Page</p>
+                <p>Currently developing an assessment module for PUP Learning Management System (LMS) as our class project in Web Developing using HTML, CSS, MySQL and PHP.</p>
             </div>
+
+            <div class="project2-container">
+                <div class="project2">
+                    <a href="https://thisaintandy.github.io/Kohi-s-Coffee-Shop/#" target="_blank"><img src="assets/project2-1.png" alt="Image of the App" class="project-image"></a>
+                        <p class="project-title">Assignment: Coffee Shop</p>
+                </div>
+
+
+                <div class="project2">
+                    <img src="assets/project-5.png" alt="Image of the App" class="project-image">
+                    <p class="project-title">Soon</p>
+                </div>
+
+                <div class="project2">
+                    <img src="assets/project-6.png" alt="Image of the App" class="project-image">
+                    <p class="project-title">Soon</p>
+                </div>
+            </div>
+
+            
+            
         </div>
     </div>
 
 
     <div id="contact-me-page">
         <p>&nbsp;</p>
-        <p>&nbsp;</p>
         <div class="contact-container">
             <h3 id="contacts" style="font-family: 'Rubik', sans-serif;">Contacts</h3>
-        <p>Facebook</p>
-        <p>Gmail: andydymasarque@gmail.com</p>
-        <p>Instagram</p>
-        <p>Github</p>
-    </div>
-        
+            <a href="https://www.facebook.com/andy.masarque21/" target="_blank"><img alt="Facebook Logo" src="assets/facebook-img.png" class="socials"></a>
+            <a href="https://www.instagram.com/thisaintandy_/" target="_blank"><img alt="Instagram Logo" src="assets/instagram-img.png" class="socials"></a>
+            <a href="https://github.com/thisaintandy" target="_blank"><img alt="Github Logo" src="assets/github-img.png" class="socials"></a>
+            <p style="text-decoration: underline;">Gmail: andydymasarque@gmail.com</p>
+            <button id="showResumeBtn">Resume</button>
+        </div>
     </div>
 
+    <footer>
+        <p>Andy Masarque &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
